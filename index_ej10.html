@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="description" content="prueba pagina web bootstrap">
+	<meta name="keyboards" content="HTML,CSS,XML,JavaScript">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="author" content="carlos esteban gil">
+	<!-- Latest compiled and minified CSS -->
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+	<!-- Ejemplo de un menu -->
+	<div class="container ">
+		<div class="row">
+			<div class="col-12">
+				<ul class="nav nav-justified nav-pills"> <!--justify-content-end  flex-column  -->
+					<li class="nav-item"><a href="#" class="nav-link active">Link 1</a></li>
+					<li class="nav-item"><a href="#" class="nav-link disabled">Link 2</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Link 3</a></li>
+					<li class="nav-item dropdown"><a href="#" class="nav-link  dropdown-toggle" data-toggle="dropdown">Link 4</a>
+						<div class="dropdown-menu">
+							<a href="#" class="dropdown-item">Submenu 1 </a>
+							<a href="#" class="dropdown-item">Submenu 2 </a>
+							<a href="#" class="dropdown-item">Submenu 3 </a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- ejemplo 2 (navbar) -->
+				<nav>
+					<ul class="navbar-nav navbar-expand-md nav-justified bg-warning"> <!--justify-content-end  flex-column  -->
+						<!-- <a href="#" class="navbar-brand">GLOBALWEB</a> -->
+						<a href="#" class="navbar-brand"><img src="assets/images/logo.png" style="height:40px; width:80px;" alt=""></a> 
+						<li class="nav-item"><a href="#" class="nav-link">Link 1</a></li>
+						<li class="nav-item"><a href="#" class="nav-link">Link 2</a></li>
+						<li class="nav-item"><a href="#" class="nav-link">Link 3</a></li>
+					</ul>
+				</nav>
+		
+		<!-- ejemplo 3 ( simil anterior pero collapsable)		 -->
+
+		<!-- sacar y poner fixed.top xa pruebas xq me tapa los ejercicios menues anteriores  -->
+			<nav class="navbar navbar-expand-sm navbar-dark bg-danger fixed-bottom"><!-- fixed-top --> 
+				<a href="#" class="navbar-brand">
+					<img src="assets/images/logo.png" style="height:30px; width:50px;" alt="">
+				</a> 
+
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#va">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="va">
+					<ul class="navbar-nav "> <!--navbar-expand-md nav-justified  justify-content-end  flex-column  -->
+						<li class="nav-item"><a href="#" class="nav-link bg-danger">Link 1</a></li>
+						<li class="nav-item"><a href="#" class="nav-link bg-danger">Link 2</a></li>
+						<li class="nav-item dropdown">
+							<a href="#" class="nav-link bg-danger dropdown-toggle" data-toggle="dropdown"
+							   id="navbardrop">
+									<div class="dropdown-menu">
+										<a href="#" class="dropdown-item">Sub item 1</a>
+										<a href="#" class="dropdown-item">Sub item 2</a>
+										<a href="#" class="dropdown-item">Sub item 3</a>	
+									</div>
+							</a>
+						</li>
+						
+						<form action="miFormulario.php" method="post" class="form-inline">
+							<input type="text" placeholder="Buscar" class="form-control mr-sm-2 ">
+							<button class="btn btn-success" type="submit">Buscar</button>
+						</form>
+
+					</ul>
+				</div> 
+			</nav>
+
+			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, eum. Voluptate ducimus nulla facilis error provident fuga corporis modi, adipisci at tempora ipsum corrupti autem enim quibusdam cumque consequatur perferendis mollitia nihil qui totam dignissimos praesentium tenetur dolores possimus! Id adipisci sed perferendis autem corrupti enim. Ipsum esse molestias magni odio quasi dignissimos eveniet dolores cumque aut vero explicabo, consequatur soluta, aliquam omnis corporis. Eum quos aspernatur recusandae minus ducimus cumque! Deserunt neque nemo facere commodi nihil accusamus quisquam obcaecati assumenda recusandae voluptates quo alias quaerat quas doloribus qui provident suscipit, modi, a eligendi repudiandae dolorum, at aperiam. Quo architecto deserunt officia quis temporibus itaque fugiat, dolores at animi, voluptatem placeat. Dicta laboriosam nam delectus explicabo minima, cupiditate, ullam sint ea quo in, illum neque. Veniam ratione debitis saepe beatae necessitatibus eos dolore voluptates, quis sed rerum placeat nostrum nulla nobis tenetur est, praesentium, repellat totam facilis delectus nesciunt nisi numquam? Inventore officiis eum ullam nisi eligendi quasi, perferendis aliquid ab voluptatem error consequuntur dolore laborum nulla impedit? Ad inventore nesciunt architecto deleniti? Quos eos quae rerum. Asperiores voluptatibus ut recusandae accusantium odit suscipit provident, minima delectus, debitis facere fuga fugiat doloribus quis maiores aperiam ratione soluta praesentium error. Quas, fugiat fuga illum incidunt pariatur exercitationem rem dolorum iste aperiam eaque cum expedita nihil odit nostrum officia? Id doloribus iusto deserunt blanditiis, repellendus ad iste eum atque quo sit minima, rem, obcaecati molestiae eos laborum vel laudantium voluptate quis exercitationem dolore. Tempora, voluptas esse dolore impedit animi rem officiis ipsa! Numquam illum tempora ea, iste ducimus totam aliquam officiis debitis doloremque velit architecto commodi. Aliquid magni voluptatibus autem repellat explicabo, reiciendis eligendi nam facilis. Quidem recusandae, sapiente praesentium perspiciatis et provident temporibus possimus dolorum qui soluta aut, neque perferendis iusto corporis! Ex est quas ut! Et voluptate eos doloremque ea soluta error repudiandae nesciunt distinctio ab laboriosam illum tempora, id esse dolor ex ipsum tempore laudantium nulla. Veniam ipsa tempora esse a, perferendis laboriosam. Neque corrupti perspiciatis aperiam eaque sequi molestiae voluptatum illum illo consequatur iusto magni deserunt ad odio magnam delectus facere enim a consequuntur, repellat quidem, adipisci autem. Ullam recusandae dolorem architecto temporibus itaque, deleniti est a impedit in rem maiores ipsa iure! Pariatur repellat aut dicta explicabo excepturi, fugiat a est ullam voluptatum doloribus laboriosam ipsum itaque fuga corporis illo facere, inventore nisi nobis soluta ex, labore obcaecati sint iste. Fugit, laudantium asperiores doloremque, provident officia quo ad similique exercitationem distinctio tempora esse porro sapiente dolor sit nesciunt cupiditate? Soluta, dolores? Veniam commodi ad dolorem saepe eum quas, voluptatibus eos labore, laudantium dicta nemo sapiente delectus exercitationem id sunt vero architecto beatae, deleniti voluptas repellendus officiis ullam fuga tenetur velit. Architecto et enim culpa modi doloribus tempora sint possimus recusandae. Vitae sint ut, voluptatibus excepturi sapiente blanditiis explicabo nemo beatae vero, doloribus porro, odio exercitationem quo iste velit maiores perferendis vel minima labore soluta officia sunt? Recusandae aliquid corrupti sit nostrum, minus sunt itaque quisquam esse id veritatis eos accusamus odit reiciendis officia quod vero, rerum maiores perferendis, quasi eveniet? Quibusdam dolores, fuga odio vitae sequi eum sint sed adipisci totam voluptatibus architecto atque doloremque. Cupiditate expedita, assumenda quos sed doloribus, consectetur voluptas, nam autem esse veritatis est nobis explicabo quaerat? Veritatis quae molestiae qui neque. Eaque voluptatem placeat excepturi quidem ad asperiores consequatur ullam totam iste velit molestiae maiores, libero, alias nobis. Ducimus optio officia veritatis est ratione distinctio excepturi odio, quae dolore repudiandae non harum ea molestias consequatur iusto! Laboriosam, repellendus iusto? Sequi, impedit dicta nam qui consequuntur dolorem. Reprehenderit at quibusdam numquam accusantium molestiae neque illo dolorum inventore magni soluta obcaecati fugiat optio nemo, pariatur placeat cupiditate quisquam aperiam ipsam, voluptatibus id, laborum dicta deleniti. Ad alias aspernatur maiores perferendis, dignissimos, unde consequuntur veniam similique earum dolorum fuga illo neque omnis labore ab consequatur? Illum a accusantium nemo dolores rerum magni eius inventore! Enim soluta autem iste maiores aspernatur, rem quod possimus error aliquam dolorum sapiente iure minus ipsa in sint nesciunt adipisci id dignissimos sed labore voluptatibus, repellat molestias. Eos maiores sit ab. Commodi dignissimos voluptas nam dolor hic modi fugiat, impedit fugit architecto quos deserunt adipisci. Voluptatem suscipit saepe voluptate a reiciendis enim esse illo beatae perferendis repellendus obcaecati, voluptates laudantium praesentium adipisci libero, pariatur, voluptatibus veniam illum corrupti accusantium labore consectetur aut dolores quaerat! Quod reprehenderit harum sed voluptates optio facilis adipisci vel illum necessitatibus nisi quae, a suscipit, repellat mollitia doloribus? Cupiditate odio reprehenderit aliquid facere deleniti distinctio autem quaerat nam dolorum placeat ducimus, eos tempore nesciunt laboriosam totam aperiam minima esse corporis perferendis! Ducimus unde saepe reiciendis placeat quia fuga dolorum, voluptas, est enim ut quibusdam non expedita maiores distinctio esse at nisi soluta rem. Blanditiis incidunt libero dolor adipisci, voluptatibus accusantium suscipit corrupti fugit veritatis ab quo aliquid omnis saepe sequi ducimus provident quidem nulla, odit porro. Earum.</p>			 
+
+	</div>
+	
+	
+	<!-- <script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="js/popper.min.js"></script> -->
+	
+	<!-- Latest compiled and minified JavaScript -->
+	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</body>
+</html>
+
+

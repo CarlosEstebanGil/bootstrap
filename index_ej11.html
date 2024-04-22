@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="description" content="prueba pagina web bootstrap">
+	<meta name="keyboards" content="HTML,CSS,XML,JavaScript">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="author" content="carlos esteban gil">
+	<!-- Latest compiled and minified CSS -->
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+	 <!-- Formularios: -->
+	<div class="container ">
+		<h1>Formulario de Contacto</h1>
+		<form action="proceso.php" method="post" ><!-- class="form-inline" -->
+			<label for="nombre">Nombre</label> <input type="text" id="nombre" class="form-control">
+			<label for="email">Email</label> <input type="email" id="email" class="form-control">
+			<label for="tiempo">Fecha</label> <input type="datetime" id="tiempo" class="form-control">
+			<label for="color">Color</label> <input type="color" id="color" class="form-control">
+			<label for="contrasena">Contrasena</label> <input type="password" id="contrasena" class="form-control">
+			<label for="recordar" class="form-check-label"> 
+				<input type="checkbox" class="form-check-input"> Recordarme </input>
+			</label>
+			<br>
+
+			<textarea name="descripcion" id="uno" cols="60" rows="10"></textarea> <br>
+
+			<div class="form-check">
+				<label for="dos" class="form-check-label">
+					<input type="checkbox" class="form-check-input" value=""> Opcion 1 </input>
+				</label>
+
+			</div>
+
+			<div class="form-check">
+				<label for="dos" class="form-check-label">
+					<input type="checkbox" class="form-check-input" value=""> Opcion 1 </input>
+				</label>
+			</div>
+
+			<div class="form-check">
+				<label for="dos" class="form-check-label">
+					<input type="checkbox" class="form-check-input" value=""> Opcion 2 </input>
+				</label>
+			</div>
+			<br>
+			<div class="form-check">
+				<label for="dos" class="form-check-label">
+					<input type="checkbox" class="form-check-input" value=""> Opcion 3 </input>
+				</label>
+			</div>
+			
+			<br>
+
+			<!-- si cada label lo pongo dentro de un div class radio entonces quedan verticales--> 
+				<label for="" class="radio-inline"><input type="radio" name="gusto"/> TV</label>
+				<label for="" class="radio-inline"><input type="radio" name="gusto"/> Radio</label>
+				<label for="" class="radio-inline"><input type="radio" name="gusto"/> Internet</label>
+			 
+
+			<select name="dias" id="">
+				<option value="lunes">lunes</option>
+				<option value="lunes">martes</option>
+				<option value="lunes">miercoles</option>
+				<option value="lunes">jueves</option>
+				<option value="lunes">viernes</option>
+			</select>
+				
+			<input type="submit" value="ENVIAR" class="btn btn-primary">
+			 
+		</form>
+
+	</div>
+	
+	
+	<!-- <script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="js/popper.min.js"></script> -->
+	
+	<!-- Latest compiled and minified JavaScript -->
+	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</body>
+</html>
+
+

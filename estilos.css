@@ -1,0 +1,23 @@
+.borde {
+	background-color: gray;
+	height: 1200px;
+}
+
+.borde1{
+	background-color: aquamarine;
+	height: 50px;
+	text-align: center;
+}
+
+.borde2{
+	background-color: olivedrab;
+	height: 50px;
+	text-align: center;
+}
+
+
+.borde3{
+	background-color: orangered;
+	height: 50px;
+	text-align: center;
+}

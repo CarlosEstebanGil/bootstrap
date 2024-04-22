@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="description" content="prueba pagina web bootstrap">
+	<meta name="keyboards" content="HTML,CSS,XML,JavaScript">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="author" content="carlos esteban gil">
+	<!-- Latest compiled and minified CSS -->
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+	 <!-- Formularios: -->
+	<div class="container-fluid">
+		<h1>CARRUSEL O SLIDER</h1>
+		
+		<div id="demo" class="carousel slide bg-dark" data-ride="carousel">
+
+			<!-- INDICADORES -->
+
+			<ul class="carousel-indicators">
+				<li data-target="demo" data-slide-to="0" class="active"></li>
+				<li data-target="demo" data-slide-to="1" ></li>
+				<li data-target="demo" data-slide-to="2" ></li>
+			</ul>
+
+			<!-- IMAGENES -->
+
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="assets/images/paisaje1.jpg" class="img-fluid "  alt="">
+					<div class="carousel-caption">
+						<h3>PRIMER TITULO</h3>
+						<p>Esta es la descripcion de la imagen</p>
+					</div>
+				</div>
+				<div class="carousel-item "> 
+					<img src="assets/images/paisaje2.jpg" class="img-fluid "  alt="">
+					<div class="carousel-caption">
+						<h3>SEGUNDO TITULO</h3>
+						<p>Esta es la descripcion de la imagen 2</p>
+					</div>
+				</div>	
+				<div class="carousel-item "> 
+					<img src="assets/images/paisaje3.jpg" class="img-fluid "  alt="">
+					<div class="carousel-caption">
+						<h3>TERCER TITULO</h3>
+						<p>Esta es la descripcion de la imagen 3</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- CONTROLES DE LA IZQUIERDA Y DERECHA -->
+
+			<a href="#demo" class="carousel-control-prev" data-slide="prev">
+				<span class="carousel-control-prev-icon"></span>
+			</a>
+
+			<a href="#demo" class="carousel-control-next" data-slide="next">
+				<span class="carousel-control-next-icon"></span>
+			</a>
+	
+		</div>
+
+	</div>
+	
+	
+	<!-- <script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="js/popper.min.js"></script> -->
+	
+	<!-- Latest compiled and minified JavaScript -->
+	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
